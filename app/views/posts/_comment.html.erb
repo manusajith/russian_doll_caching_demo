@@ -1,0 +1,10 @@
+<strong>Comments</strong>
+
+	<% comment.each do |comment| %>
+	<% cache comment do %>
+		<p>
+		  <strong><%= comment.name %>:</strong>
+		  <%= comment.content %>
+		</p>
+	<% end %>
+<% end %>
