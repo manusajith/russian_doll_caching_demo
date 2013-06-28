@@ -1,0 +1,1 @@
+This is a template for a bootstrapping a new rails application using devise and twitter's bootstrap. Use it as a starting point to create something more unique.
